@@ -1,0 +1,8 @@
+$piz_name = CHEESE | CAPSICUM | TOMATO;
+$size = REGULAR | LARGE;
+$number= ONE | TWO | THREE;
+$yes = YES | YEAH;
+$no = NO | THATS ALL | NO THATS ALL;
+$s_name =  CUPCAKE | PASTA ;
+( SENT-START ( [$number] $piz_name $size | [$number] $size $piz_name ) SENT-END | SENT-START ( $yes | $no ) SENT-END | SENT-START ( [$number] $s_name ) SENT-END )
+

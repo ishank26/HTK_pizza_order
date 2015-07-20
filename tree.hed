@@ -1,0 +1,249 @@
+RO 100 "./stats"
+
+TR 0
+
+QS "L_Vowel" {a-*,A-*,i-*,I-*,u-*,U-*,e-*,E-*,o-*,O-*,ae-*,ai-*}
+QS "L_Short_Vowel" {a-*,i-*,u-*,e-*,o-*}
+QS "L_Long_Vowel" {A-*,I-*,U-*,E-*,O-*}
+QS "L_Diphthong" {ae-*,ai-*}
+QS "L_Stop" {k-*,t-*,T-*,p-*,g-*,d-*,D-*,b-*}
+QS "L_Voiced_Stop" {g-*,d-*,D-*,b-*,gh-*,dh-*,Dh-*,bh-*}
+QS "L_Unvoiced_Stop" {k-*,t-*,T-*,p-*,kh-*,th-*,Th-*,ph-*}
+QS "L_Unasphirated_Voiced_Stop" {g-*,d-*,D-*,b-*}
+QS "L_Unasphirated_Unvoiced_Stop" {k-*,t-*,T-*,p-*}
+QS "L_Asphirated_Voiced_Stop" {gh-*,dh-*,Dh-*,bh-*}
+QS "L_Asphirated_Unvoiced_Stop" {kh-*,th-*,Th-*,ph-*}
+QS "L_Unasphirated_Affricate" {c-*,j-*}
+QS "L_Asphirated_Affricate" {ch-*,jh-*}
+QS "L_Liquid" {l-*,r-*,w-*,y-*}
+QS "L_Nasal" {m-*,n-*,ng-*,N-*}
+QS "L_Strong_Fricatives" {s-*,s~-*}
+QS "R_Vowel" {*+a,*+A,*+i,*+I,*+u,*+U,*+e,*+E,*+o,*+O,*+ae,*+ai}
+QS "R_Short_Vowel" {*+a,*+i,*+u,*+e,*+o}
+QS "R_Long_Vowel" {*+A,*+I,*+U,*+E,*+O}
+QS "R_Diphthong" {*+ae,*+ai}
+QS "R_Stop" {*+k,*+t,*+T,*+p,*+g,*+d,*+D,*+b}
+QS "R_Voiced_Stop" {*+g,*+d,*+D,*+b,*+gh,*+dh,*+Dh,*+bh}
+QS "R_Unvoiced_Stop" {*+k,*+t,*+T,*+p,*+kh,*+th,*+Th,*+ph}
+QS "R_Unasphirated_Voiced_Stop" {*+g,*+d,*+D,*+b}
+QS "R_Unasphirated_Unvoiced_Stop" {*+k,*+t,*+T,*+p}
+QS "R_Asphirated_Voiced_Stop" {*+gh,*+dh,*+Dh,*+bh}
+QS "R_Asphirated_Unvoiced_Stop" {*+kh,*+th,*+Th,*+ph}
+QS "R_Unasphirated_Affricate" {*+c,*+j}
+QS "R_Asphirated_Affricate" {*+ch,*+jh}
+QS "R_Liquid" {*+l,*+r,*+w,*+y}
+QS "R_Nasal" {*+m,*+n,*+ng,*+N}
+QS "R_Strong_Fricatives" {*+s,*+s~}
+QS "L_a" {a-*}
+QS "R_a" {*+a}
+QS "L_A" {A-*}
+QS "R_A" {*+A}
+QS "L_i" {i-*}
+QS "R_i" {*+i}
+QS "L_I" {I-*}
+QS "R_I" {*+I}
+QS "L_u" {u-*}
+QS "R_u" {*+u}
+QS "L_U" {U-*}
+QS "R_U" {*+U}
+QS "L_e" {e-*}
+QS "R_e" {*+e}
+QS "L_E" {E-*}
+QS "R_E" {*+E}
+QS "L_o" {o-*}
+QS "R_o" {*+o}
+QS "L_O" {O-*}
+QS "R_O" {*+O}
+QS "L_ae" {ae-*}
+QS "R_ae" {*+ae}
+QS "L_ai" {ai-*}
+QS "R_ai" {*+ai}
+QS "L_clk" {clk-*}
+QS "R_clk" {*+clk}
+QS "L_clc" {clc-*}
+QS "R_clc" {*+clc}
+QS "L_clT" {clT-*}
+QS "R_clT" {*+clT}
+QS "L_clt" {clt-*}
+QS "R_clt" {*+clt}
+QS "L_clp" {clp-*}
+QS "R_clp" {*+clp}
+QS "L_vbg" {vbg-*}
+QS "R_vbg" {*+vbg}
+QS "L_vbj" {vbj-*}
+QS "R_vbj" {*+vbj}
+QS "L_vbD" {vbD-*}
+QS "R_vbD" {*+vbD}
+QS "L_vbd" {vbd-*}
+QS "R_vbd" {*+vbd}
+QS "L_vbb" {vbb-*}
+QS "R_vbb" {*+vbb}
+QS "L_clkh" {clkh-*}
+QS "R_clkh" {*+clkh}
+QS "L_clch" {clch-*}
+QS "R_clch" {*+clch}
+QS "L_clTh" {clTh-*}
+QS "R_clTh" {*+clTh}
+QS "L_clth" {clth-*}
+QS "R_clth" {*+clth}
+QS "L_clph" {clph-*}
+QS "R_clph" {*+clph}
+QS "L_vbgh" {vbgh-*}
+QS "R_vbgh" {*+vbgh}
+QS "L_vbjh" {vbjh-*}
+QS "R_vbjh" {*+vbjh}
+QS "L_vbDh" {vbDh-*}
+QS "R_vbDh" {*+vbDh}
+QS "L_vbdh" {vbdh-*}
+QS "R_vbdh" {*+vbdh}
+QS "L_vbbh" {vbbh-*}
+QS "R_vbbh" {*+vbbh}
+QS "L_k" {k-*}
+QS "R_k" {*+k}
+QS "L_c" {c-*}
+QS "R_c" {*+c}
+QS "L_T" {T-*}
+QS "R_T" {*+T}
+QS "L_t" {t-*}
+QS "R_t" {*+t}
+QS "L_p" {p-*}
+QS "R_p" {*+p}
+QS "L_g" {g-*}
+QS "R_g" {*+g}
+QS "L_j" {j-*}
+QS "R_j" {*+j}
+QS "L_D" {D-*}
+QS "R_D" {*+D}
+QS "L_d" {d-*}
+QS "R_d" {*+d}
+QS "L_b" {b-*}
+QS "R_b" {*+b}
+QS "L_kh" {kh-*}
+QS "R_kh" {*+kh}
+QS "L_ch" {ch-*}
+QS "R_ch" {*+ch}
+QS "L_Th" {Th-*}
+QS "R_Th" {*+Th}
+QS "L_th" {th-*}
+QS "R_th" {*+th}
+QS "L_ph" {ph-*}
+QS "R_ph" {*+ph}
+QS "L_gh" {gh-*}
+QS "R_gh" {*+gh}
+QS "L_jh" {jh-*}
+QS "R_jh" {*+jh}
+QS "L_Dh" {Dh-*}
+QS "R_Dh" {*+Dh}
+QS "L_dh" {dh-*}
+QS "R_dh" {*+dh}
+QS "L_bh" {bh-*}
+QS "R_bh" {*+bh}
+QS "L_N" {N-*}
+QS "R_N" {*+N}
+QS "L_m" {m-*}
+QS "R_m" {*+m}
+QS "L_n" {n-*}
+QS "R_n" {*+n}
+QS "L_y" {y-*}
+QS "R_y" {*+y}
+QS "L_r" {r-*}
+QS "R_r" {*+r}
+QS "L_l" {l-*}
+QS "R_l" {*+l}
+QS "L_w" {w-*}
+QS "R_w" {*+w}
+QS "L_s" {s-*}
+QS "R_s" {*+s}
+QS "L_s~" {s~-*}
+QS "R_s~" {*+s~}
+QS "L_hv" {hv-*}
+QS "R_hv" {*+hv}
+QS "L_sil" {sil-*}
+QS "R_sil" {*+sil}
+TR 2
+
+TB 350 "ST_ax_2_" {("ax","*-ax+*","ax+*","*-ax").state[2]}
+TB 350 "ST_l_2_" {("l","*-l+*","l+*","*-l").state[2]}
+TB 350 "ST_k_2_" {("k","*-k+*","k+*","*-k").state[2]}
+TB 350 "ST_ei_2_" {("ei","*-ei+*","ei+*","*-ei").state[2]}
+TB 350 "ST_p_2_" {("p","*-p+*","p+*","*-p").state[2]}
+TB 350 "ST_s_2_" {("s","*-s+*","s+*","*-s").state[2]}
+TB 350 "ST_ii_2_" {("ii","*-ii+*","ii+*","*-ii").state[2]}
+TB 350 "ST_m_2_" {("m","*-m+*","m+*","*-m").state[2]}
+TB 350 "ST_c_2_" {("c","*-c+*","c+*","*-c").state[2]}
+TB 350 "ST_z_2_" {("z","*-z+*","z+*","*-z").state[2]}
+TB 350 "ST_ee_2_" {("ee","*-ee+*","ee+*","*-ee").state[2]}
+TB 350 "ST_aa_2_" {("aa","*-aa+*","aa+*","*-aa").state[2]}
+TB 350 "ST_r_2_" {("r","*-r+*","r+*","*-r").state[2]}
+TB 350 "ST_j_2_" {("j","*-j+*","j+*","*-j").state[2]}
+TB 350 "ST_n_2_" {("n","*-n+*","n+*","*-n").state[2]}
+TB 350 "ST_o_2_" {("o","*-o+*","o+*","*-o").state[2]}
+TB 350 "ST_w_2_" {("w","*-w+*","w+*","*-w").state[2]}
+TB 350 "ST_t_2_" {("t","*-t+*","t+*","*-t").state[2]}
+TB 350 "ST_g_2_" {("g","*-g+*","g+*","*-g").state[2]}
+TB 350 "ST_u_2_" {("u","*-u+*","u+*","*-u").state[2]}
+TB 350 "ST_sil_2_" {("sil","*-sil+*","sil+*","*-sil").state[2]}
+TB 350 "ST_dx_2_" {("dx","*-dx+*","dx+*","*-dx").state[2]}
+TB 350 "ST_tx_2_" {("tx","*-tx+*","tx+*","*-tx").state[2]}
+TB 350 "ST_th_2_" {("th","*-th+*","th+*","*-th").state[2]}
+TB 350 "ST_uu_2_" {("uu","*-uu+*","uu+*","*-uu").state[2]}
+TB 350 "ST_y_2_" {("y","*-y+*","y+*","*-y").state[2]}
+TB 350 "ST_ax_3_" {("ax","*-ax+*","ax+*","*-ax").state[3]}
+TB 350 "ST_l_3_" {("l","*-l+*","l+*","*-l").state[3]}
+TB 350 "ST_k_3_" {("k","*-k+*","k+*","*-k").state[3]}
+TB 350 "ST_ei_3_" {("ei","*-ei+*","ei+*","*-ei").state[3]}
+TB 350 "ST_p_3_" {("p","*-p+*","p+*","*-p").state[3]}
+TB 350 "ST_s_3_" {("s","*-s+*","s+*","*-s").state[3]}
+TB 350 "ST_ii_3_" {("ii","*-ii+*","ii+*","*-ii").state[3]}
+TB 350 "ST_m_3_" {("m","*-m+*","m+*","*-m").state[3]}
+TB 350 "ST_c_3_" {("c","*-c+*","c+*","*-c").state[3]}
+TB 350 "ST_z_3_" {("z","*-z+*","z+*","*-z").state[3]}
+TB 350 "ST_ee_3_" {("ee","*-ee+*","ee+*","*-ee").state[3]}
+TB 350 "ST_aa_3_" {("aa","*-aa+*","aa+*","*-aa").state[3]}
+TB 350 "ST_r_3_" {("r","*-r+*","r+*","*-r").state[3]}
+TB 350 "ST_j_3_" {("j","*-j+*","j+*","*-j").state[3]}
+TB 350 "ST_n_3_" {("n","*-n+*","n+*","*-n").state[3]}
+TB 350 "ST_o_3_" {("o","*-o+*","o+*","*-o").state[3]}
+TB 350 "ST_w_3_" {("w","*-w+*","w+*","*-w").state[3]}
+TB 350 "ST_t_3_" {("t","*-t+*","t+*","*-t").state[3]}
+TB 350 "ST_g_3_" {("g","*-g+*","g+*","*-g").state[3]}
+TB 350 "ST_u_3_" {("u","*-u+*","u+*","*-u").state[3]}
+TB 350 "ST_sil_3_" {("sil","*-sil+*","sil+*","*-sil").state[3]}
+TB 350 "ST_dx_3_" {("dx","*-dx+*","dx+*","*-dx").state[3]}
+TB 350 "ST_tx_3_" {("tx","*-tx+*","tx+*","*-tx").state[3]}
+TB 350 "ST_th_3_" {("th","*-th+*","th+*","*-th").state[3]}
+TB 350 "ST_uu_3_" {("uu","*-uu+*","uu+*","*-uu").state[3]}
+TB 350 "ST_y_3_" {("y","*-y+*","y+*","*-y").state[3]}
+TB 350 "ST_ax_4_" {("ax","*-ax+*","ax+*","*-ax").state[4]}
+TB 350 "ST_l_4_" {("l","*-l+*","l+*","*-l").state[4]}
+TB 350 "ST_k_4_" {("k","*-k+*","k+*","*-k").state[4]}
+TB 350 "ST_ei_4_" {("ei","*-ei+*","ei+*","*-ei").state[4]}
+TB 350 "ST_p_4_" {("p","*-p+*","p+*","*-p").state[4]}
+TB 350 "ST_s_4_" {("s","*-s+*","s+*","*-s").state[4]}
+TB 350 "ST_ii_4_" {("ii","*-ii+*","ii+*","*-ii").state[4]}
+TB 350 "ST_m_4_" {("m","*-m+*","m+*","*-m").state[4]}
+TB 350 "ST_c_4_" {("c","*-c+*","c+*","*-c").state[4]}
+TB 350 "ST_z_4_" {("z","*-z+*","z+*","*-z").state[4]}
+TB 350 "ST_ee_4_" {("ee","*-ee+*","ee+*","*-ee").state[4]}
+TB 350 "ST_aa_4_" {("aa","*-aa+*","aa+*","*-aa").state[4]}
+TB 350 "ST_r_4_" {("r","*-r+*","r+*","*-r").state[4]}
+TB 350 "ST_j_4_" {("j","*-j+*","j+*","*-j").state[4]}
+TB 350 "ST_n_4_" {("n","*-n+*","n+*","*-n").state[4]}
+TB 350 "ST_o_4_" {("o","*-o+*","o+*","*-o").state[4]}
+TB 350 "ST_w_4_" {("w","*-w+*","w+*","*-w").state[4]}
+TB 350 "ST_t_4_" {("t","*-t+*","t+*","*-t").state[4]}
+TB 350 "ST_g_4_" {("g","*-g+*","g+*","*-g").state[4]}
+TB 350 "ST_u_4_" {("u","*-u+*","u+*","*-u").state[4]}
+TB 350 "ST_sil_4_" {("sil","*-sil+*","sil+*","*-sil").state[4]}
+TB 350 "ST_dx_4_" {("dx","*-dx+*","dx+*","*-dx").state[4]}
+TB 350 "ST_tx_4_" {("tx","*-tx+*","tx+*","*-tx").state[4]}
+TB 350 "ST_th_4_" {("th","*-th+*","th+*","*-th").state[4]}
+TB 350 "ST_uu_4_" {("uu","*-uu+*","uu+*","*-uu").state[4]}
+TB 350 "ST_y_4_" {("y","*-y+*","y+*","*-y").state[4]}
+
+TR 1
+ 
+AU "fulllist"
+CO "tiedlist"
+ 
+ST "trees"

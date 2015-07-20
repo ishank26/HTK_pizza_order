@@ -1,0 +1,41 @@
+WARNING: no script file bigdict.ded
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+     bigdict        17         17         17         17
+        dict        17         17         17         17
+
+17 words required, 0 missing
+
+New Phone Usage Counts
+---------------------
+  1. ax    :     1
+  2. l     :     3
+  3. sp    :    17
+  4. k     :     5
+  5. ei    :     5
+  6. p     :     3
+  7. s     :     4
+  8. ii    :     3
+  9. m     :     2
+ 10. c     :     1
+ 11. z     :     1
+ 12. ee    :     1
+ 13. aa    :     4
+ 14. r     :     4
+ 15. j     :     1
+ 16. n     :     2
+ 17. o     :     3
+ 18. w     :     1
+ 19. t     :     2
+ 20. g     :     1
+ 21. u     :     1
+ 22. sil   :     2
+ 23. dx    :     1
+ 24. tx    :     3
+ 25. th    :     1
+ 26. uu    :     1
+ 27. y     :     2
+
+Dictionary dict created

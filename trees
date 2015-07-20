@@ -1,0 +1,339 @@
+QS 'L_Vowel' { "ai-*","ae-*","O-*","o-*","E-*","e-*","U-*","u-*","I-*","i-*","A-*","a-*" }
+QS 'L_Short_Vowel' { "o-*","e-*","u-*","i-*","a-*" }
+QS 'L_Stop' { "b-*","D-*","d-*","g-*","p-*","T-*","t-*","k-*" }
+QS 'L_Voiced_Stop' { "bh-*","Dh-*","dh-*","gh-*","b-*","D-*","d-*","g-*" }
+QS 'L_Unvoiced_Stop' { "ph-*","Th-*","th-*","kh-*","p-*","T-*","t-*","k-*" }
+QS 'L_Unasphirated_Voiced_Stop' { "b-*","D-*","d-*","g-*" }
+QS 'L_Unasphirated_Unvoiced_Stop' { "p-*","T-*","t-*","k-*" }
+QS 'L_Asphirated_Unvoiced_Stop' { "ph-*","Th-*","th-*","kh-*" }
+QS 'L_Unasphirated_Affricate' { "j-*","c-*" }
+QS 'L_Liquid' { "y-*","w-*","r-*","l-*" }
+QS 'L_Nasal' { "N-*","ng-*","n-*","m-*" }
+QS 'L_Strong_Fricatives' { "s~-*","s-*" }
+QS 'R_Vowel' { "*+ai","*+ae","*+O","*+o","*+E","*+e","*+U","*+u","*+I","*+i","*+A","*+a" }
+QS 'R_Short_Vowel' { "*+o","*+e","*+u","*+i","*+a" }
+QS 'R_Stop' { "*+b","*+D","*+d","*+g","*+p","*+T","*+t","*+k" }
+QS 'R_Voiced_Stop' { "*+bh","*+Dh","*+dh","*+gh","*+b","*+D","*+d","*+g" }
+QS 'R_Unvoiced_Stop' { "*+ph","*+Th","*+th","*+kh","*+p","*+T","*+t","*+k" }
+QS 'R_Unasphirated_Voiced_Stop' { "*+b","*+D","*+d","*+g" }
+QS 'R_Unasphirated_Unvoiced_Stop' { "*+p","*+T","*+t","*+k" }
+QS 'R_Unasphirated_Affricate' { "*+j","*+c" }
+QS 'R_Liquid' { "*+y","*+w","*+r","*+l" }
+QS 'R_Nasal' { "*+N","*+ng","*+n","*+m" }
+QS 'R_Strong_Fricatives' { "*+s~","*+s" }
+QS 'L_u' { "u-*" }
+QS 'R_u' { "*+u" }
+QS 'L_o' { "o-*" }
+QS 'R_o' { "*+o" }
+QS 'L_k' { "k-*" }
+QS 'R_k' { "*+k" }
+QS 'L_c' { "c-*" }
+QS 'L_t' { "t-*" }
+QS 'R_t' { "*+t" }
+QS 'L_p' { "p-*" }
+QS 'R_p' { "*+p" }
+QS 'L_g' { "g-*" }
+QS 'R_g' { "*+g" }
+QS 'R_j' { "*+j" }
+QS 'L_th' { "th-*" }
+QS 'L_m' { "m-*" }
+QS 'R_m' { "*+m" }
+QS 'L_n' { "n-*" }
+QS 'R_n' { "*+n" }
+QS 'L_y' { "y-*" }
+QS 'L_r' { "r-*" }
+QS 'R_r' { "*+r" }
+QS 'L_l' { "l-*" }
+QS 'R_l' { "*+l" }
+QS 'L_w' { "w-*" }
+QS 'L_s' { "s-*" }
+QS 'R_s' { "*+s" }
+
+ax[2]
+   "ST_ax_2_1"
+
+l[2]
+{
+   0                'L_Vowel'  "ST_l_2_1"  "ST_l_2_2" 
+}
+
+k[2]
+{
+   0                 'R_Stop'  "ST_k_2_1"  "ST_k_2_2" 
+}
+
+ei[2]
+{
+   0               'L_Liquid'      -1     "ST_ei_2_3" 
+  -1                 'L_Stop'  "ST_ei_2_1"  "ST_ei_2_2" 
+}
+
+p[2]
+   "ST_p_2_1"
+
+s[2]
+{
+   0                 'R_Stop'  "ST_s_2_1"  "ST_s_2_2" 
+}
+
+ii[2]
+{
+   0    'L_Strong_Fricatives'  "ST_ii_2_1"  "ST_ii_2_2" 
+}
+
+m[2]
+   "ST_m_2_1"
+
+c[2]
+   "ST_c_2_1"
+
+z[2]
+   "ST_z_2_1"
+
+ee[2]
+   "ST_ee_2_1"
+
+aa[2]
+{
+   0               'R_Liquid'  "ST_aa_2_1"  "ST_aa_2_2" 
+}
+
+r[2]
+{
+   0               'L_Liquid'  "ST_r_2_1"  "ST_r_2_2" 
+}
+
+j[2]
+   "ST_j_2_1"
+
+n[2]
+   "ST_n_2_1"
+
+o[2]
+   "ST_o_2_1"
+
+w[2]
+   "ST_w_2_1"
+
+t[2]
+   "ST_t_2_1"
+
+g[2]
+   "ST_g_2_1"
+
+u[2]
+   "ST_u_2_1"
+
+sil[2]
+   "ST_sil_2_1"
+
+dx[2]
+   "ST_dx_2_1"
+
+tx[2]
+   "ST_tx_2_1"
+
+th[2]
+   "ST_th_2_1"
+
+uu[2]
+   "ST_uu_2_1"
+
+y[2]
+   "ST_y_2_1"
+
+ax[3]
+   "ST_ax_3_1"
+
+l[3]
+{
+   0                'L_Vowel'  "ST_l_3_1"  "ST_l_3_2" 
+}
+
+k[3]
+   "ST_k_3_1"
+
+ei[3]
+{
+   0                 'R_Stop'  "ST_ei_3_1"  "ST_ei_3_2" 
+}
+
+p[3]
+   "ST_p_3_1"
+
+s[3]
+{
+   0                 'R_Stop'      -1     "ST_s_3_3" 
+  -1                 'L_Stop'  "ST_s_3_1"  "ST_s_3_2" 
+}
+
+ii[3]
+{
+   0 'L_Unasphirated_Affricate'  "ST_ii_3_1"  "ST_ii_3_2" 
+}
+
+m[3]
+{
+   0                'L_Vowel'  "ST_m_3_1"  "ST_m_3_2" 
+}
+
+c[3]
+   "ST_c_3_1"
+
+z[3]
+   "ST_z_3_1"
+
+ee[3]
+   "ST_ee_3_1"
+
+aa[3]
+{
+   0               'R_Liquid'      -1     "ST_aa_3_3" 
+  -1    'R_Strong_Fricatives'  "ST_aa_3_1"  "ST_aa_3_2" 
+}
+
+r[3]
+{
+   0 'R_Unasphirated_Affricate'  "ST_r_3_1"  "ST_r_3_2" 
+}
+
+j[3]
+   "ST_j_3_1"
+
+n[3]
+{
+   0               'L_Liquid'  "ST_n_3_1"  "ST_n_3_2" 
+}
+
+o[3]
+{
+   0                'L_Nasal'  "ST_o_3_1"  "ST_o_3_2" 
+}
+
+w[3]
+   "ST_w_3_1"
+
+t[3]
+   "ST_t_3_1"
+
+g[3]
+   "ST_g_3_1"
+
+u[3]
+   "ST_u_3_1"
+
+sil[3]
+   "ST_sil_3_1"
+
+dx[3]
+   "ST_dx_3_1"
+
+tx[3]
+   "ST_tx_3_1"
+
+th[3]
+   "ST_th_3_1"
+
+uu[3]
+   "ST_uu_3_1"
+
+y[3]
+   "ST_y_3_1"
+
+ax[4]
+   "ST_ax_4_1"
+
+l[4]
+{
+   0                'L_Vowel'  "ST_l_4_1"  "ST_l_4_2" 
+}
+
+k[4]
+{
+   0                 'L_Stop'  "ST_k_4_1"  "ST_k_4_2" 
+}
+
+ei[4]
+{
+   0                 'R_Stop'      -1     "ST_ei_4_3" 
+  -1                'L_Nasal'  "ST_ei_4_1"  "ST_ei_4_2" 
+}
+
+p[4]
+   "ST_p_4_1"
+
+s[4]
+{
+   0                 'R_Stop'  "ST_s_4_1"  "ST_s_4_2" 
+}
+
+ii[4]
+{
+   0               'L_Liquid'  "ST_ii_4_1"  "ST_ii_4_2" 
+}
+
+m[4]
+   "ST_m_4_1"
+
+c[4]
+   "ST_c_4_1"
+
+z[4]
+   "ST_z_4_1"
+
+ee[4]
+   "ST_ee_4_1"
+
+aa[4]
+{
+   0    'R_Strong_Fricatives'      -1     "ST_aa_4_4" 
+  -1               'R_Liquid'      -2     "ST_aa_4_3" 
+  -2                 'L_Stop'  "ST_aa_4_1"  "ST_aa_4_2" 
+}
+
+r[4]
+{
+   0               'L_Liquid'  "ST_r_4_1"  "ST_r_4_2" 
+}
+
+j[4]
+   "ST_j_4_1"
+
+n[4]
+   "ST_n_4_1"
+
+o[4]
+{
+   0                'L_Nasal'  "ST_o_4_1"  "ST_o_4_2" 
+}
+
+w[4]
+   "ST_w_4_1"
+
+t[4]
+   "ST_t_4_1"
+
+g[4]
+   "ST_g_4_1"
+
+u[4]
+   "ST_u_4_1"
+
+sil[4]
+   "ST_sil_4_1"
+
+dx[4]
+   "ST_dx_4_1"
+
+tx[4]
+   "ST_tx_4_1"
+
+th[4]
+   "ST_th_4_1"
+
+uu[4]
+   "ST_uu_4_1"
+
+y[4]
+   "ST_y_4_1"
+
