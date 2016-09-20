@@ -1,11 +1,12 @@
 import pexpect 
 import re
 
+prompt_wav="/home/ishank/work/htk/dhindi"
 def testjulius():	
     child= pexpect.spawn ('julius -input mic -C Sample.jconf')
     child.maxread=8000
     i=0
-    pexpect.run("play pizza_order.wav", cwd="/home/ishank/work/htk/dhindi") # wav file containing prompt for pizza order
+    pexpect.run("play pizza_order.wav", cwd=prompt_wav) # wav file containing prompt for pizza order
     while True:
 		try:
 			if i==0:
@@ -15,7 +16,7 @@ def testjulius():
 					pizza=pass1
 					print "Your pizza order is:", pass1
 					i=i+1
-					pexpect.run("play side_order.wav", cwd="/home/ishank/work/htk/dhindi") # wav file containing containing prompt for side order	
+					pexpect.run("play side_order.wav", cwd=prompt_wav) # wav file containing containing prompt for side order	
 				else:
 					pass			
 			if i == 1:
@@ -31,7 +32,7 @@ def testjulius():
 				print "Your order is: ",pizza," & ",side
 				return 0
 			else:
-				pass			
+				testjulius()		
 		except KeyboardInterrupt:
 			child.close()
 			pass
